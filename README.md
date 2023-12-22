@@ -25,3 +25,10 @@ ExecStart=/usr/local/bin/ldmtool-setup.sh
 [Install]
 WantedBy=default.target
 ```
+
+The /usr/local/bin/ldmtool-setup.sh file contains:
+
+```bash
+#!/bin/bash
+ldmtool create all
+```
